@@ -1,0 +1,57 @@
+@import '../styles.scss';
+
+input {
+    outline-style: none;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus,
+  a:focus,
+  button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+#acePage{
+    *section{
+        scroll-behavior: smooth;
+        min-height: 100vh;
+    }
+
+    #overview{
+        .overviewTitle{
+            color: $ap-heading;
+        }
+    }
+
+    #offer{
+        .offerTitle{
+            color: $ap-heading;
+        }
+        .card{
+            border-radius: 15px;
+            border: 1px solid transparent;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            .card-title{
+                color: $ap-heading;
+            }
+            .btn{
+                background-color:$ap-button;
+                border: 1px solid transparent;
+            }
+        }
+    }
+
+    #testimonial{
+        .testimonialTitle{
+            color: $ap-heading;
+        }
+    }
+
+    #contact{
+        .contactTitle{
+            color: $ap-heading;
+        }
+    }
+}
